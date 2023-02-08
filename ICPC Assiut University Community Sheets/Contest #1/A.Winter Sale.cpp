@@ -1,8 +1,12 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 int main()
 {
-  return 0;
+	float n, x, p;
+	cin >> x >> p;
+	n = (100 * p) / (100 - x);
+	cout << n;
+
+	return 0;
 }
