@@ -34,4 +34,5 @@ int main()
 		flag = 1;
 		cout << min << endl;
 	}
+	return 0;
 }
