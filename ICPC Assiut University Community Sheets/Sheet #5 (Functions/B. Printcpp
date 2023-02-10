@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void printToN(int n)
+{
+	for (int i = 1; i <= n; i++)
+	{
+		cout << i;
+		if (i != n)
+			cout << " ";
+	}
+}
+int main()
+{
+	int n;
+	cin >> n;
+	printToN(n);
+	
+	return 0;
+}
